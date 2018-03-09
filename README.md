@@ -1,2 +1,2 @@
-# js-cqrs-es-proxy
+# hive-io-proxy
 This project contains the [development](./conf/development/haproxy.cfg) and [production](./conf/production/haproxy.cfg) load balancing proxy configurations for testing the [Hive Framework](https://gist.github.com/aeilers/30aa0047187e5a5d573a478abc581903) implementation. It uses the latest stable version of [HAProxy](http://www.haproxy.org/), [1.8.4](https://hub.docker.com/_/haproxy/). Check out the [dev](https://github.com/fnalabs/hive-io-dev) module for more information on how it is used.
