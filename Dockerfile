@@ -1,4 +1,4 @@
-ARG IMG_VER="1.8.4-alpine"
+ARG IMG_VER="1.8.8-alpine"
 FROM haproxy:${IMG_VER}
 LABEL maintainer="Adam Eilers"
 
