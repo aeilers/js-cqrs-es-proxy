@@ -1,6 +1,4 @@
-ARG IMG_VER="1.8.9-alpine"
-FROM haproxy:${IMG_VER}
-LABEL maintainer="Adam Eilers"
+FROM haproxy:1.8.23-alpine
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
